@@ -50,6 +50,7 @@ header{
 
 
 #head-btns ul li a{
+    font-size: 20px;
     display: block;
     text-align: center;
     height: 100%;
@@ -59,7 +60,7 @@ header{
     color: white;
     border-radius: 5px;
     font-weight: 500;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 #head-btns ul li a:hover{
     background-color: rgba(255, 255, 255, 0.268);
