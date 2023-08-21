@@ -11,8 +11,9 @@ body{
     background-color: #B85042;
 }
 header{
-    background-color: rgb(30, 30, 30);
-    color: white;
+    background-color: rgb(47, 47, 47);
+    /* color: white; */
+    color: #B85042;
     height: 5em;
     width: 100%;
     display: flex;
