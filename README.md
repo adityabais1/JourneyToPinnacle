@@ -19,7 +19,7 @@ Welcome to JourneyToPinnacle, a tribute website dedicated to celebrating the liv
 ## Installation
 
 1. Clone this repository:
-git clone https://github.com/
+git clone https://github.com/adityabais1/JourneyToPinnacle
 
 
 2. Open `index.html` in your preferred web browser.
