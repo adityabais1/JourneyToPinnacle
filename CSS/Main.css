@@ -1,0 +1,55 @@
+main{
+    /* background-color: rgb(230, 230, 230); */
+    background-color: #E7E8D1;
+    width: 97%;
+    height: 100%;
+    margin: 60px auto 30px auto;
+    border-radius: 5px;
+}
+main h1{
+    max-width: 600px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 2em;
+}
+#sub-heading{
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+.img-div{
+    background-color: #A7BEAE;
+    padding: 1em 0 0.5em 0;
+}
+.img-div img{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.img-div figcaption{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+h2{
+    text-align: center;
+    padding: 2em 0;
+}
+h3{
+    margin-left: 20px ;
+}
+.timeline-box{
+    max-width: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.time-line-content{
+    padding-bottom: 10px;
+}
+main li{
+    padding-bottom: 10px;
+}
+#wiki-text{
+    text-align: center;
+    padding: 3em 0;
+    font-size: 20px;
+    font-weight: 600;
+}
