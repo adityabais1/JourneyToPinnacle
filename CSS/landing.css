@@ -3,8 +3,8 @@
 .headline {
   /* background-color: white; */
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.452),
-      rgba(255, 255, 255, 0.518)
+      rgba(255, 255, 255, 0.357),
+      rgba(255, 255, 255, 0.706)
     ),
     url("https://images.unsplash.com/photo-1483197452165-7abc4b248905?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80");
   background-size: cover;
@@ -80,10 +80,11 @@
   .headline {
     /* background: none; */
     /* background-color: green; */
-    height: auto;
+    height: 100%;
   }
   .btn-know {
     margin-top: 5rem;
+    margin-bottom: 5rem;
     padding-bottom: 0px;
   }
   .btn-know button {
