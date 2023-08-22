@@ -43,10 +43,12 @@ header{
 
 }
 
-#logo{
+#logo a{
     font-size: 30px;
     font-family: 'Pacifico', cursive;
     line-height: 5em;
+    text-decoration: none;
+    color: #B85042;
 }
 
 #toggle-btn{

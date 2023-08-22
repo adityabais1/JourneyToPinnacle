@@ -46,6 +46,8 @@ h3{
 }
 main li{
     padding-bottom: 10px;
+    list-style: square;
+    line-height: 30px;
 }
 #wiki-text{
     text-align: center;
