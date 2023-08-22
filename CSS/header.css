@@ -11,7 +11,8 @@ body{
     background-color: #B85042;
 }
 header{
-    background-color: rgb(47, 47, 47);
+    /* background-color: rgb(47, 47, 47); */
+    background-color: rgba(255, 255, 255, 0.975);
     /* color: white; */
     color: #B85042;
     height: 5em;
@@ -23,6 +24,9 @@ header{
     box-sizing: border-box;
     position: fixed;
     top: 0;
+    z-index: 10;
+    /* border-bottom: 1px solid rgb(225, 225, 225); */
+    box-shadow: 0 0 5px rgb(138, 138, 138);
 }
 
 #head-btns>ul{
@@ -32,7 +36,7 @@ header{
 #head-btns>ul>li{
     list-style: none;
     width: 150px;
-    height: 40px;
+    height: 50px;
     /* background-color: rgba(255, 255, 255, 0.238); */
     margin: 0 5px;
     border-radius: 5px;
@@ -55,17 +59,20 @@ header{
     display: block;
     text-align: center;
     height: 100%;
-    line-height: 40px;
+    line-height: 50px;
     width: 100%;
     text-decoration: none;
-    color: white;
+    color: rgb(10, 10, 10);
     border-radius: 5px;
     font-weight: 500;
     /* font-size: 16px; */
+    transition: color 0.5s;
 }
 #head-btns ul li a:hover{
-    background-color: rgba(255, 255, 255, 0.268);
+    background-color: rgba(83, 83, 83, 0.268);
     color: rgba(174, 10, 10, 0.685);
+    /* text-decoration: underline; */
+    transition: color 0.5s;
 }
 
 
