@@ -177,10 +177,47 @@
   color: rgb(232, 232, 232);
   font-size: 20px;
   font-weight: 600;
-  background-color: rgba(0, 0, 0, 0.537);
+  background-color: rgba(0, 0, 0, 0.279);
+  z-index: 10;
 }
 @media (max-width: 1015px) {
   .content {
     font-size: 20px;
   }
+}
+
+.card a:hover ~ .name{
+  height: 50%;
+  transition: ease 0.5s;
+}
+.name:hover{
+  height: 50%;
+  transition: ease 0.5s;
+}
+.card a:hover ~ .description{
+  color: rgb(255, 255, 255);
+  transition: color ease 1s;
+}
+.name:hover ~ .description{
+  color: rgb(255, 255, 255);
+  transition: color ease 1s;
+}
+
+
+
+.description{
+  position: absolute;
+  bottom: 30px;
+  width: 18rem;
+  color: transparent;
+  box-sizing: border-box;
+  padding: 0 5px;
+  text-align: center;
+  /* display: none; */
+  font-size: 14px;
+}
+
+.name:hover ~ .description{
+  display: block;
+  transition: ease 0.5s;
 }
