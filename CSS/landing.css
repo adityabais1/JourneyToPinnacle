@@ -179,6 +179,7 @@
   font-weight: 600;
   background-color: rgba(0, 0, 0, 0.279);
   z-index: 10;
+  transition: height ease 0.5s;
 }
 @media (max-width: 1015px) {
   .content {
@@ -192,7 +193,7 @@
 }
 .name:hover{
   height: 50%;
-  transition: ease 0.5s;
+  transition: height ease 0.5s;
 }
 .card a:hover ~ .description{
   color: rgb(255, 255, 255);
