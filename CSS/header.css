@@ -29,11 +29,11 @@ header{
     box-shadow: 0 0 5px rgb(172, 172, 172);
 }
 
-#head-btns>ul{
+#navbarMenu>ul{
     display: flex;
     
 }
-#head-btns>ul>li{
+#navbarMenu>ul>li{
     list-style: none;
     width: 150px;
     height: 50px;
@@ -51,12 +51,12 @@ header{
     color: #B85042;
 }
 
-#toggle-btn{
+#toggleBtn{
     display: none;
 }
 
 
-#head-btns ul li a{
+#navbarMenu ul li a{
     font-size: 20px;
     display: block;
     text-align: center;
@@ -70,7 +70,7 @@ header{
     /* font-size: 16px; */
     transition: color 0.5s;
 }
-#head-btns ul li a:hover{
+#navbarMenu ul li a:hover{
     background-color: rgba(83, 83, 83, 0.268);
     color: rgba(174, 10, 10, 0.685);
     /* text-decoration: underline; */
@@ -81,11 +81,17 @@ header{
 
 /* resposive desings */
 @media (max-width: 992px){
-    #head-btns{
+    #navbarMenu{
         display: none;
     }
     
-    #toggle-btn{
+    #toggleBtn{
         display: block;
     }
+}
+
+
+
+#navbarMenu.active {
+    display: flex;
 }
